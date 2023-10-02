@@ -1,0 +1,153 @@
+INFO - 2023-08-13 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:44 --> Cart Class Initialized
+INFO - 2023-08-13 19:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:44 --> Cart Class Initialized
+INFO - 2023-08-13 19:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:49 --> Cart Class Initialized
+INFO - 2023-08-13 19:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 19:59:49 --> Cart Class Initialized
+INFO - 2023-08-13 20:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:02:25 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:30 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:36 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:37 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:40 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:41 --> Cart Class Initialized
+INFO - 2023-08-13 20:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:05:59 --> Cart Class Initialized
+INFO - 2023-08-13 20:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:06:41 --> Cart Class Initialized
+INFO - 2023-08-13 20:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:09:56 --> Cart Class Initialized
+CRITICAL - 2023-08-13 20:09:56 --> Call to undefined method CodeIgniterCart\Cart::total_items()
+in APPPATH\Views\backend\mp.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 4 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:36:09 --> Cart Class Initialized
+CRITICAL - 2023-08-13 20:36:09 --> Call to undefined method CodeIgniterCart\Cart::total_items()
+in APPPATH\Views\backend\mp.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 4 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:36:22 --> Cart Class Initialized
+INFO - 2023-08-13 20:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:39:13 --> Cart Class Initialized
+CRITICAL - 2023-08-13 20:39:13 --> require(C:\xampp\htdocs\tp-maxigim\app\Views\backend/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\mp.php on line 9.
+ 1 APPPATH\Views\backend\mp.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 9)
+ 2 APPPATH\Views\backend\mp.php(9): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 6 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 20:41:04 --> require(C:\xampp\htdocs\tp-maxigim\app\Views\backend/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\mp.php on line 2.
+ 1 APPPATH\Views\backend\mp.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 2)
+ 2 APPPATH\Views\backend\mp.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 6 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 20:41:21 --> require(C:\xampp\htdocs\tp-maxigim\app\Views\backend\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\mp.php on line 2.
+ 1 APPPATH\Views\backend\mp.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 2)
+ 2 APPPATH\Views\backend\mp.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 6 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 20:44:06 --> require(C:\xampp\htdocs\tp-maxigim\app\Views\backendC:\xampp\htdocs\tp-maxigim\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\mp.php on line 6.
+ 1 APPPATH\Views\backend\mp.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backendC:\\xampp\\htdocs\\tp-maxigim\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 6)
+ 2 APPPATH\Views\backend\mp.php(6): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 6 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:44:26 --> Cart Class Initialized
+CRITICAL - 2023-08-13 20:44:26 --> Undefined variable $access_token
+in APPPATH\Views\backend\mp.php on line 9.
+ 1 APPPATH\Views\backend\mp.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $access_token', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 5 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 20:49:55 --> require(vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\mp.php on line 6.
+ 1 APPPATH\Views\backend\mp.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor\\autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 6)
+ 2 APPPATH\Views\backend\mp.php(6): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 6 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 20:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 20:50:03 --> Cart Class Initialized
+CRITICAL - 2023-08-13 20:50:03 --> Undefined variable $access_token
+in APPPATH\Views\backend\mp.php on line 9.
+ 1 APPPATH\Views\backend\mp.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $access_token', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 5 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

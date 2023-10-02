@@ -1,0 +1,19 @@
+CRITICAL - 2023-04-17 20:01:45 --> Invalid file: "informacionContacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('informacionContacto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('informacionContacto', [], true)
+ 3 APPPATH\Controllers\Home.php(28): view('informacionContacto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->informacionContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 14:18:07 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

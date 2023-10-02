@@ -1,0 +1,348 @@
+INFO - 2023-06-02 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 02:51:55 --> Undefined variable $compras
+in APPPATH\Views\inc\main.php on line 7.
+ 1 APPPATH\Views\inc\main.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compras', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\main.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/main', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('/inc/main')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 02:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 02:53:02 --> Invalid file: "/inc/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/footer', [], true)
+ 3 APPPATH\Controllers\Home.php(33): view('/inc/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 02:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 02:55:31 --> Invalid file: "/inc/loggin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/loggin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/loggin', [], true)
+ 3 APPPATH\Controllers\Home.php(80): view('/inc/loggin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loggin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 02:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 02:55:56 --> Invalid file: "/inc/backend/loggin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/backend/loggin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/backend/loggin', [], true)
+ 3 APPPATH\Controllers\Home.php(80): view('/inc/backend/loggin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loggin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 02:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 02:56:24 --> Invalid file: "/inc/backend/loggin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/backend/loggin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/backend/loggin', [], true)
+ 3 APPPATH\Controllers\Home.php(80): view('/inc/backend/loggin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->loggin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 03:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 03:03:34 --> Undefined variable $categorias
+in APPPATH\Views\backend\agregar-producto.php on line 33.
+ 1 APPPATH\Views\backend\agregar-producto.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\agregar-producto.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\agregar-producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/agregar-producto', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('/backend/agregar-producto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar_producto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 03:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 03:16:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Home.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar_producto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 03:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 03:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 03:18:40 --> Call to undefined method App\Models\Productos_modelo::getAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Model->__call('getAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 03:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 03:36:44 --> syntax error, unexpected token "endforeach"
+in APPPATH\Views\backend\gestionProductos.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:10:31 --> syntax error, unexpected token "endforeach"
+in APPPATH\Views\backend\gestionProductos.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:21:25 --> Unclosed '{' on line 32
+in APPPATH\Views\backend\gestionProductos.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:21:45 --> Unclosed '{' on line 32
+in APPPATH\Views\backend\gestionProductos.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:21:58 --> Unclosed '{' on line 42
+in APPPATH\Views\backend\gestionProductos.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:22:21 --> Unclosed '{' on line 32
+in APPPATH\Views\backend\gestionProductos.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:25:52 --> Undefined array key "imagen"
+in APPPATH\Views\backend\gestionProductos.php on line 35.
+ 1 APPPATH\Views\backend\gestionProductos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:39:33 --> Undefined array key "imagen"
+in APPPATH\Views\backend\gestionProductos.php on line 35.
+ 1 APPPATH\Views\backend\gestionProductos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 13:43:01 --> Undefined array key "imagen"
+in APPPATH\Views\backend\gestionProductos.php on line 35.
+ 1 APPPATH\Views\backend\gestionProductos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 13:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:03:23 --> Call to a member function get() on string
+in APPPATH\Models\Imagenes_modelo.php on line 30.
+ 1 APPPATH\Controllers\Home.php(87): App\Models\Imagenes_modelo->obtenerPrimerImagen('5')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:20:12 --> Invalid file: "/inc/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inc/footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/inc/footer', [], true)
+ 3 APPPATH\Controllers\Home.php(95): view('/inc/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:32:29 --> Call to a member function getRowArray() on string
+in APPPATH\Controllers\Home.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:38:25 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 87.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:39:30 --> Call to a member function getRowObject() on string
+in APPPATH\Controllers\Home.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:40:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\gestionProductos.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 4 APPPATH\Controllers\Home.php(95): view('/backend/gestionProductos')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-02 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:46:18 --> Array to string conversion
+in APPPATH\Views\backend\gestionProductos.php on line 36.
+ 1 APPPATH\Views\backend\gestionProductos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(95): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 14:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 14:46:35 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 88.
+ 1 APPPATH\Controllers\Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 15:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 15:05:18 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Models\Imagenes_modelo.php on line 22.
+ 1 APPPATH\Controllers\Home.php(87): App\Models\Imagenes_modelo->obtenerImagenPorProductoID('5')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 15:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 15:05:52 --> Undefined array key "nombre"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 15:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 15:08:17 --> Trying to access array offset on value of type bool
+in APPPATH\Views\backend\gestionProductos.php on line 36.
+ 1 APPPATH\Views\backend\gestionProductos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(95): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 16:01:23 --> Call to undefined method App\Models\Imagenes_modelo::obtenerNombresImagenesProducto
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Model->__call('obtenerNombresImagenesProducto', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 16:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-02 16:37:31 --> mysqli_sql_exception: Table 'macookie_db.imagenes' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\app\Models\Imagenes_modelo.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\app\Controllers\Home.php(87): App\Models\Imagenes_modelo->obtenerNombresImagenesProducto('5')
+#6 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+#7 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-02 16:37:31 --> Table 'macookie_db.imagenes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `imagenes`
+WHERE `producto_id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `imagenes`
+WHERE `producto_id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `imagenes`
+WHERE `producto_id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `imagenes`
+WHERE `producto_id` = :producto_id:', [...], false)
+ 5 APPPATH\Models\Imagenes_modelo.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(87): App\Models\Imagenes_modelo->obtenerNombresImagenesProducto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-02 16:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-02 16:39:51 --> Array to string conversion
+in APPPATH\Views\backend\gestionProductos.php on line 36.
+ 1 APPPATH\Views\backend\gestionProductos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\gestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/gestionProductos', [], true)
+ 5 APPPATH\Controllers\Home.php(94): view('/backend/gestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->gestionProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

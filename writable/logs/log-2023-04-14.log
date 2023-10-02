@@ -1,0 +1,93 @@
+CRITICAL - 2023-04-14 01:02:50 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-14 00:06:36 --> Undefined variable $baseURL
+in APPPATH\Views\inc\navbar.php on line 32.
+ 1 APPPATH\Views\inc\navbar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php', 32)
+ 2 APPPATH\Views\QS.php(2): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\QS.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('QS', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('QS')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienesSomos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 03:15:34 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 03:16:02 --> Undefined variable $compras
+in APPPATH\Controllers\Home.php on line 70.
+ 1 APPPATH\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compras', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Home.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 13:15:52 --> Undefined variable $base_url
+in APPPATH\Views\inc\navbar.php on line 32.
+ 1 APPPATH\Views\inc\navbar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php', 32)
+ 2 APPPATH\Views\QS.php(2): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\QS.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('QS', [], true)
+ 6 APPPATH\Controllers\Home.php(18): view('QS')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienesSomos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 13:16:11 --> Undefined variable $baseURL
+in APPPATH\Views\inc\navbar.php on line 32.
+ 1 APPPATH\Views\inc\navbar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php', 32)
+ 2 APPPATH\Views\QS.php(2): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\QS.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('QS', [], true)
+ 6 APPPATH\Controllers\Home.php(18): view('QS')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienesSomos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 13:58:01 --> require_once(../app/config/app/php): Failed to open stream: No such file or directory
+in APPPATH\Views\home.php on line 1.
+ 1 APPPATH\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(../app/config/app/php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php', 1)
+ 2 APPPATH\Views\home.php(1): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(79): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 13:58:18 --> require_once(.../app/config/app/php): Failed to open stream: No such file or directory
+in APPPATH\Views\home.php on line 1.
+ 1 APPPATH\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(.../app/config/app/php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php', 1)
+ 2 APPPATH\Views\home.php(1): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(79): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 13:59:16 --> require_once(.../app/Config/App.php): Failed to open stream: No such file or directory
+in APPPATH\Views\home.php on line 1.
+ 1 APPPATH\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(.../app/Config/App.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php', 1)
+ 2 APPPATH\Views\home.php(1): require_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(79): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->home()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

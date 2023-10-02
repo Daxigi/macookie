@@ -1,0 +1,112 @@
+INFO - 2023-08-24 11:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:00 --> Cart Class Initialized
+INFO - 2023-08-24 11:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:00 --> Cart Class Initialized
+INFO - 2023-08-24 11:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:07 --> Cart Class Initialized
+INFO - 2023-08-24 11:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:07 --> Cart Class Initialized
+INFO - 2023-08-24 11:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 11:29:30 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:14 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:33 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:39 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:40 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:45 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:45 --> Cart Class Initialized
+INFO - 2023-08-24 12:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:14:58 --> Cart Class Initialized
+INFO - 2023-08-24 12:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:16:19 --> Cart Class Initialized
+CRITICAL - 2023-08-24 12:16:20 --> Undefined array key "name"
+in APPPATH\Views\backend\mp.php on line 33.
+ 1 APPPATH\Views\backend\mp.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 5 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 12:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:16:37 --> Cart Class Initialized
+CRITICAL - 2023-08-24 12:16:38 --> Undefined array key "qty"
+in APPPATH\Views\backend\mp.php on line 34.
+ 1 APPPATH\Views\backend\mp.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 5 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 12:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:16:43 --> Cart Class Initialized
+INFO - 2023-08-24 12:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:17:35 --> Cart Class Initialized
+INFO - 2023-08-24 12:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:20:58 --> Cart Class Initialized
+INFO - 2023-08-24 12:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:21:23 --> Cart Class Initialized
+INFO - 2023-08-24 12:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:22:09 --> Cart Class Initialized
+INFO - 2023-08-24 12:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:22:29 --> Cart Class Initialized
+CRITICAL - 2023-08-24 12:22:30 --> Cannot access offset of type string on string
+in APPPATH\Models\Productos_modelo.php on line 46.
+ 1 APPPATH\Views\backend\mp.php(35): App\Models\Productos_modelo->obtenerProductosDelCarrito([...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\backend\\mp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 5 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 12:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:48:49 --> Cart Class Initialized
+CRITICAL - 2023-08-24 12:48:49 --> Cannot access offset of type string on string
+in APPPATH\Views\backend\mp.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/backend/mp', [], true)
+ 4 APPPATH\Controllers\Home.php(261): view('/backend/mp')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->mp()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:49:14 --> Cart Class Initialized
+INFO - 2023-08-24 12:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:50:45 --> Cart Class Initialized
+INFO - 2023-08-24 12:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:51:12 --> Cart Class Initialized
+INFO - 2023-08-24 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:51:17 --> Cart Class Initialized

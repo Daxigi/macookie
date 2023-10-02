@@ -1,0 +1,75 @@
+CRITICAL - 2023-04-25 10:52:16 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(51): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:53:25 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(51): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:55:48 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(46): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:56:56 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(46): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:57:00 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(46): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:57:08 --> Undefined variable $data
+in APPPATH\Views\inc\requeriments\head.php on line 14.
+ 1 APPPATH\Views\inc\requeriments\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php', 14)
+ 2 APPPATH\Views\productos.php(1): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\requeriments\\head.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(51): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:57:32 --> Cannot declare class App\Controllers\Home, because the name is already in use
+in APPPATH\Controllers\Home.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

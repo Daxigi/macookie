@@ -1,0 +1,16 @@
+Para presentar en el final
+
+complejo:
+- Recuperacion de contrase;a- terminada(revisar y probar).
+- Edicion de datos de usuario
+- Datos de envio: Una nueva tabla en la bd, que agregue los datos relacionados a UNA venta: 
+    Los datos del carrito una vez se pulsa el boton de continuar se deben guardar en la session. Una vez que los datos del envio se introducen se deben guardar tambien en la session para proceder al pago, una vez que el pago fue aceptado se eliminan todos los datos y se guardan en la db.
+- Mejorar la pagina principal
+- Filtro en mis ventas por fecha
+
+
+sencillo:
+- No mostrar un producto si no tiene stock: En los productos que no se muestren los titulos si no tiene ningun producto
+- Agregar una imagen a las categorias, hacer que se muestre
+- Agregar el buscador en el navbar
+- Cupones de descuento

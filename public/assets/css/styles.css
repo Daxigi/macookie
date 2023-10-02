@@ -1,0 +1,384 @@
+:root{
+    --color1: #49171d;
+    --color2: #703431;
+    --color3: #a2553d;
+    --color4: #db874b;
+    --color5: #ecc854;
+}
+/* cuerpo en general */
+body{
+    background-color: rgb(255,248,180);
+}
+
+* {
+    transition: .2s ease-in;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* navbar */
+.navbar{
+    background-color: #a2553d;
+}
+.logo{
+    width: 3em;
+    height: 3em;
+}
+
+.nav-item:hover{
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+
+
+/* producto */
+.card{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.product-image{
+    width: 100%;
+    height: 400px;
+    border-radius: 6px;
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.card-footer .btn{
+    float: right;
+}
+
+.prod-section{
+    align-self: center;
+    display: flex;
+    width: 1400px;
+    height: 550px;
+}
+
+.prod-section img{
+    width: 0px;
+    position: initial;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+.prod-section img:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+/*  */
+.bs{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    row-gap: 1em;
+    align-items: center;
+    justify-items: center;
+}
+
+.bloque{
+    display: flex;
+    background-color: var(--color4);
+    width: 80vw;
+
+}
+
+.sample{
+    width: 25vw;
+    height: min-content;
+    border-radius: 4px;
+    margin: 0.5em;
+}
+
+
+
+/* fuentes */
+.titulo-principal{
+    font-family: 'lilita one';
+    font-size: 12.5vw;
+    color: #ecc854;
+    text-shadow: 1px 2px #fff;
+}
+
+.minititulo{
+    font-family: 'lilita one';
+    font-size: 6rem;
+    padding-left: 0.1em;
+    color: #ecc854;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+.cuerpo{
+    font-size: minmax(4vw,1vw);
+    font-style: bold;
+    text-align: justify;
+    margin: 1em;
+}
+
+.bs .cuerpo{
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+
+
+/* Comercializacion */
+.comercializacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    background-color: var(--color3);
+    width: 100%;
+    height: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.comercializacion .minititulo{
+    font-size: 4em;
+}
+
+.comercializacion .cuerpo{
+    color: #FFF;
+    font-size: minmax(4vw,1vw);
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.comercializacion img{
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+}
+
+/* media */
+.social-links a.instagram i {
+    font-size: 2em;
+    color: rgba(255,255,255, 0.7);
+}
+
+.social-links a.whatsapp i {
+   font-size: 2em;
+   color: rgba(255,255,255, 0.7);
+}
+
+.social-links a.whatsapp i:hover {
+    font-size: 2.3em;
+    color: rgb(13, 226, 13);
+ }
+.social-links a.instagram i:hover {
+    font-size: 2.3em;
+    color: rgba(243, 89, 89, 0.7);
+}
+
+
+.bi-cart{
+    width: 2em;
+    height:2em;
+}
+
+/* informacion de contacto */
+.fondoPlano{
+    overflow:hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    background-color: var(--color4);
+    border-radius: 8px;
+    width: 90%;
+    height: 100%;
+    padding: 3vw;
+    margin: 5vw;
+}
+.contacto1 h1{
+    font-size: 18vw;
+}
+.fondoPlano .cuerpo{
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.9);
+}
+
+
+.contacto1 img{
+    width: 100%;
+    height: 45%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4 );
+}
+.form-box{
+    background-color: #f5b766;
+    padding: 1em;
+    margin-top: 8em;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #fff;
+}
+
+.form-box:hover{
+    box-shadow: 5px 1px 5px #eee;
+    
+}
+.seccion{
+    grid-column: 1/2;
+}
+
+.carousel{
+    padding-top: 4em;    
+}
+
+
+
+
+/* Quienes Somos */
+.qs{
+    margin: 2em;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #fff;
+    background-image: url('../../../img/products/contacto1.png');
+    background-size: cover;
+    text-align: center;
+}
+.qs .cuerpo{
+    color: #fff;
+    font-size: 100%;
+    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.9);
+}
+
+
+/* terminos y usos */
+
+
+
+
+
+
+/* Register*/
+.register-box{
+    margin-top:3em;
+    margin-bottom: 3em;
+    padding: 3em;
+    background-color: #fff;
+    border: solid 2px;
+    border-color: rgba(0,0,0, 0.1);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4) ;
+}
+.register-box h2{
+ text-align: center;
+}
+
+.fixed-card {
+    height: 850px; /* Establece aquí la altura deseada para las tarjetas */
+}
+
+.custom-description {
+    height: 100px; /* Establece aquí el límite de altura deseado para la descripción */
+    overflow: hidden; /* Establece aquí el estilo de desbordamiento */
+  }
+
+  .custom-heading {
+    border-bottom: 1px solid #ccc; /* Establece aquí el estilo de la línea divisoria */
+  }
+  
+  
+
+
+
+/* Media Querys */
+@media screen and (max-width: 767px){
+    .bloque{
+        display: grid;
+    }
+    .sample{
+        width: 88%;
+    }
+    .titulo-principal{
+        font-size: 30vw;
+    }
+    .minititulo{
+        font-size: 15vw;
+        text-align: center;
+    }
+    .navbar .social-links{
+        display: none;
+    }
+    .prod-section{
+        display: none;
+    }
+    .qs{
+        background-size: 400px 300px;
+    }
+    
+    .comercializacion {
+        display: flex;
+        flex-direction: column;
+    }
+    .comercializacion .minititulo{
+        font-size: 2em;
+    }
+
+    .fondoPlano-tyu{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 2fr 2fr;
+        padding: 0;
+        margin: 1em;
+    }
+    .cuerpo-tyu{
+        margin: 0;
+        padding: 1em;
+    }
+
+    .fondoPlano-tyu .minititulo{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .fondoPlano-tyu img{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        box-shadow: none;
+    }
+    .cuadrado1{
+        display: contents;
+    }
+    .cuadrado2{
+        display: contents;
+    }
+    
+}
+
+@media screen and (max-width: 1260px){
+    .fondoPlano{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+    }
+    .contacto1{
+        display: grid;
+        border: none;
+        place-items: center;
+    }
+    .form-box{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .contacto1 img{
+        width: 100%;
+        height: 100%;
+    }
+}

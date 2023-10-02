@@ -1,0 +1,24 @@
+CRITICAL - 2023-04-24 16:58:41 --> Undefined array key "nombre"
+in APPPATH\Views\inc\productos.php on line 27.
+ 1 APPPATH\Views\inc\productos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\productos.php', 27)
+ 2 APPPATH\Views\productos.php(5): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\productos.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(51): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 16:59:23 --> Undefined array key "nombre"
+in APPPATH\Views\inc\productos.php on line 27.
+ 1 APPPATH\Views\inc\productos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\productos.php', 27)
+ 2 APPPATH\Views\productos.php(5): require_once('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\productos.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\productos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productos', [], true)
+ 6 APPPATH\Controllers\Home.php(51): view('productos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

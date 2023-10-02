@@ -1,0 +1,602 @@
+CRITICAL - 2023-05-21 00:02:12 --> Class "App\Models\CI_Controller" not found
+in APPPATH\Models\persona_modelo.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tp-maxigim\\app\\Models\\persona_modelo.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\persona_modelo')
+ 4 APPPATH\Controllers\Usuario_controller.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\persona_modelo')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:01:44 --> Call to a member function database() on null
+in APPPATH\Models\persona_modelo.php on line 14.
+ 1 APPPATH\Controllers\Usuario_controller.php(9): App\Models\persona_modelo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 02:35:41 --> Call to a member function database() on null
+in APPPATH\Models\persona_modelo.php on line 14.
+ 1 APPPATH\Controllers\Usuario_controller.php(9): App\Models\persona_modelo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 02:37:00 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 02:37:00 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 03:09:15 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 03:09:15 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 03:11:01 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 03:11:01 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(56): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 03:21:52 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 03:21:52 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 04:20:13 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 04:20:13 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 04:42:41 --> Class "App\Models\persona_modelo" not found
+in APPPATH\Controllers\Usuario_controller.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 04:43:16 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 04:43:16 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 04:46:32 --> mysqli_sql_exception: Table 'macookie_db.persona' doesn't exist in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 04:46:32 --> Table 'macookie_db.persona' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `persona`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 04:47:52 --> mysqli_sql_exception: Unknown column 'persona_mail' in 'where clause' in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 04:47:52 --> Unknown column 'persona_mail' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 04:50:49 --> mysqli_sql_exception: Unknown column 'persona_mail' in 'where clause' in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 04:50:49 --> Unknown column 'persona_mail' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 22:16:33 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'macookie_db', 3306, '', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#6 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-21 22:16:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 6 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 22:24:52 --> mysqli_sql_exception: Unknown column 'persona_mail' in 'where clause' in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogime...', 'persona_mail', Array, NULL, 'persona_mail')
+#6 C:\xampp\htdocs\tp-maxigim\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogime...', Array, Array)
+#7 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-21 22:24:52 --> Unknown column 'persona_mail' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = \'maximilianogimenez91@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `persona_mail` = :persona_mail:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('maximilianogimenez91@gmail.com', 'persona_mail', [...], null, 'persona_mail')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('persona_mail', 'persona_mail', 'maximilianogimenez91@gmail.com', [...], [...])
+ 8 APPPATH\Controllers\Usuario_controller.php(58): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-21 22:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-21 22:54:29 --> Undefined variable $msgType
+in APPPATH\Views\inc\register.php on line 57.
+ 1 APPPATH\Views\inc\register.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msgType', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\register.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 5 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-21 22:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-21 22:56:50 --> Class "Config\Controllers\Usuario_controller" not found
+in APPPATH\Views\inc\register.php on line 51.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 4 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-21 22:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-21 22:59:09 --> Non-static method App\Controllers\Usuario_controller::register() cannot be called statically
+in APPPATH\Views\inc\register.php on line 51.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 4 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-21 23:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-21 23:02:22 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php on line 59
+in SYSTEMPATH\Validation\Validation.php on line 392.
+ 1 APPPATH\Controllers\Usuario_controller.php(59): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Views\inc\register.php(57): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\register.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 6 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 23:04:12 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php on line 59
+in SYSTEMPATH\Validation\Validation.php on line 392.
+ 1 APPPATH\Controllers\Usuario_controller.php(59): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Views\inc\register.php(60): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\register.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 6 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 23:05:03 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php on line 59
+in SYSTEMPATH\Validation\Validation.php on line 392.
+ 1 APPPATH\Controllers\Usuario_controller.php(59): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Views\inc\register.php(60): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tp-maxigim\\app\\Views\\inc\\register.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inc/register', [], true)
+ 6 APPPATH\Controllers\Usuario_controller.php(94): view('inc/register', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 23:42:41 --> Undefined variable $validation
+in APPPATH\Controllers\Usuario_controller.php on line 20.
+ 1 APPPATH\Controllers\Usuario_controller.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Usuario_controller.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-21 23:48:12 --> Undefined variable $request
+in APPPATH\Controllers\Usuario_controller.php on line 69.
+ 1 APPPATH\Controllers\Usuario_controller.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\tp-maxigim\\app\\Controllers\\Usuario_controller.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-21 23:48:47 --> mysqli_sql_exception: Duplicate entry 'maximilianogimenez91@gmail.com' for key 'mail' in C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tp-maxigim\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\tp-maxigim\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\tp-maxigim\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\tp-maxigim\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tp-maxigim\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tp-maxigim\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tp-maxigim\app\Models\usuarios_modelo.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tp-maxigim\app\Controllers\Usuario_controller.php(77): App\Models\usuarios_modelo->crear_persona(Array)
+#9 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+#10 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#11 C:\xampp\htdocs\tp-maxigim\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tp-maxigim\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-21 23:48:47 --> Duplicate entry 'maximilianogimenez91@gmail.com' for key 'mail'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `mail`, `password`, `telefono`, `estado`, `rol`) VALUES (\'maxiliano\', \'gimenez\', \'maximilianogimenez91@gmail.com\', \'$2y$10$Xye4uIcornK/faecQ8PVg.jF9ndcJ.j/zmqwAX6jzoE9WJAb.7c9O\', \'90999999999\', \'SI\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `mail`, `password`, `telefono`, `estado`, `rol`) VALUES (\'maxiliano\', \'gimenez\', \'maximilianogimenez91@gmail.com\', \'$2y$10$Xye4uIcornK/faecQ8PVg.jF9ndcJ.j/zmqwAX6jzoE9WJAb.7c9O\', \'90999999999\', \'SI\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `mail`, `password`, `telefono`, `estado`, `rol`) VALUES (\'maxiliano\', \'gimenez\', \'maximilianogimenez91@gmail.com\', \'$2y$10$Xye4uIcornK/faecQ8PVg.jF9ndcJ.j/zmqwAX6jzoE9WJAb.7c9O\', \'90999999999\', \'SI\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `mail`, `password`, `telefono`, `estado`, `rol`) VALUES (:nombre:, :apellido:, :mail:, :password:, :telefono:, :estado:, :rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\usuarios_modelo.php(17): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Usuario_controller.php(77): App\Models\usuarios_modelo->crear_persona([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

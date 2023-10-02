@@ -1,0 +1,38 @@
+CRITICAL - 2023-03-29 14:00:30 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto-guevara-johan\\app\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->boostrap()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 14:01:08 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto-guevara-johan\\app\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->boostrap()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 14:01:09 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto-guevara-johan\\app\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->boostrap()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 14:02:46 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto-guevara-johan\\app\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->boostrap()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 14:07:14 --> Class "CI_Controller" not found
+in APPPATH\Controllers\Home.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto-guevara-johan\\app\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

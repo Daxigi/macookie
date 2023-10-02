@@ -1,0 +1,7 @@
+CRITICAL - 2023-05-20 21:57:24 --> Call to a member function database() on null
+in APPPATH\Models\persona_modelo.php on line 14.
+ 1 APPPATH\Controllers\Usuario_controller.php(9): App\Models\persona_modelo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

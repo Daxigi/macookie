@@ -1,0 +1,42 @@
+CRITICAL - 2023-05-16 14:18:01 --> Class 'App\Models\PersonaModel' not found
+in APPPATH\Controllers\Usuario_controller.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:18:18 --> Class 'App\Controllers\persona_modelo' not found
+in APPPATH\Controllers\Usuario_controller.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:18:47 --> Class 'App\Controllers\persona_modelo' not found
+in APPPATH\Controllers\Usuario_controller.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:20:30 --> Class 'App\Controllers\persona_modelo' not found
+in APPPATH\Controllers\Usuario_controller.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:21:07 --> Class 'Codeigniter\Model' not found
+in APPPATH\Models\persona_modelo.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tp-maxigim\\app\\Models\\persona_modelo.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\persona_modelo')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\persona_modelo')
+ 5 APPPATH\Controllers\Usuario_controller.php(9): spl_autoload_call('App\\Models\\persona_modelo')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:22:08 --> Call to a member function database() on null
+in APPPATH\Models\persona_modelo.php on line 14.
+ 1 APPPATH\Controllers\Usuario_controller.php(9): App\Models\persona_modelo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
